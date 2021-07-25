@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f4e7c06-58bd-49b4-938b-65bad62b5bce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example1_Grid/GridGraphExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example1_Grid/GridGraphExample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Example2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Example2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/NavmeshExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/Example6_Navmesh/NavmeshExample.unity" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/changelog.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1627136334018" expanded="true" signature="0:43745" ph="/* \page changelog Changelog ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1627136333783" expanded="false" signature="116:226" ph="..." />
+                <marker date="1627136333783" expanded="true" signature="250:934" ph="{...}" />
+                <marker date="1627136333783" expanded="true" signature="334:932" ph="{...}" />
+                <marker date="1627136333783" expanded="true" signature="379:929" ph="{...}" />
+                <marker date="1627136333783" expanded="true" signature="647:892" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1627136333752" expanded="false" signature="6:123" ph="..." />
+                <marker date="1627136333752" expanded="true" signature="167:461" ph="/* Handles path calls for a single unit. ... */" />
+                <marker date="1627136333752" expanded="true" signature="498:15808" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="736:924" ph="/* Saves nearest nodes for previous path to enable faster Get Nearest Node calls. ... */" />
+                <marker date="1627136333752" expanded="true" signature="1154:1461" ph="/* Penalties for each tag. ... */" />
+                <marker date="1627136333752" expanded="true" signature="1507:1578" ph="/* ====== SETTINGS ====== ... */" />
+                <marker date="1627136333752" expanded="true" signature="1582:1797" ph="/* Callback for when a path is completed. Movement scripts should register to this delegate.\n ... */" />
+                <marker date="1627136333752" expanded="true" signature="2170:2260" ph="/* public GetNextTargetDelegate getNextTarget; ... */" />
+                <marker date="1627136333752" expanded="true" signature="2614:2633" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="2968:3004" ph="/* Initializes a few variables ... */" />
+                <marker date="1627136333752" expanded="true" signature="3027:3102" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="3106:3288" ph="/* Cleans up some variables. ... */" />
+                <marker date="1627136333752" expanded="true" signature="3315:3381" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="3385:3788" ph="/* Releases an eventual claimed path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="3824:3912" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="3850:3909" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4036:4141" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4063:4112" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4196:4268" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4223:4239" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4297:4352" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4356:4586" ph="/* Post Processes the path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="4621:4670" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4763:6957" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4914:5175" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="4977:5171" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="5036:5166" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="5223:5546" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="5806:6954" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="6058:6884" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="6479:6563" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="6929:6946" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="6961:7278" ph="/* Is the current path done calculating. ... */" />
+                <marker date="1627136333752" expanded="true" signature="7302:7370" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="7374:7614" ph="/* Called when a path has completed. ... */" />
+                <marker date="1627136333752" expanded="true" signature="7652:7688" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="7692:7817" ph="/* Called when a path has completed. ... */" />
+                <marker date="1627136333752" expanded="true" signature="7894:9335" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="8008:8024" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="8126:8499" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="8524:9298" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="8810:8841" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="8955:8983" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="9044:9085" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="9111:9219" ph="/* If not drawing gizmos, then storing prevPath is quite unecessary ... */" />
+                <marker date="1627136333752" expanded="true" signature="9341:9510" ph="/* public void OnEnable () { ... */" />
+                <marker date="1627136333752" expanded="true" signature="9514:10385" ph="/* public void CheckPathValidity (AstarPath active) { ... */" />
+                <marker date="1627136333752" expanded="true" signature="10389:10477" ph="/* The frame the last call was made from this Seeker ... */" />
+                <marker date="1627136333752" expanded="true" signature="10481:10975" ph="/* Returns a new path instance. The path will be taken from the path pool if path recycling is turned on.\n ... */" />
+                <marker date="1627136333752" expanded="true" signature="11031:11147" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="11151:11295" ph="/* Call this function to start calculating a path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="11348:11392" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="11396:11810" ph="/* Call this function to start calculating a path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="11888:11936" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="11940:12485" ph="/* Call this function to start calculating a path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="12578:12662" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="12666:13183" ph="/* Call this function to start calculating a path. ... */" />
+                <marker date="1627136333752" expanded="true" signature="13268:14974" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="13589:14137" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="14295:14420" ph="/* if (path.startHint == null) ... */" />
+                <marker date="1627136333752" expanded="true" signature="14661:14766" ph="/* if (lastPathCall == Time.frameCount) { ... */" />
+                <marker date="1627136333752" expanded="true" signature="14772:14833" ph="/* lastPathCall = Time.frameCount; ... */" />
+                <marker date="1627136333752" expanded="true" signature="15023:15162" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15194:15804" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15248:15264" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15290:15569" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15385:15565" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15441:15560" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15655:15801" ph="{...}" />
+                <marker date="1627136333752" expanded="true" signature="15712:15797" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <marker date="1627136333891" expanded="false" signature="6:67" ph="..." />
+                <marker date="1627136333891" expanded="true" signature="91:1366" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="135:1364" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="426:537" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="564:728" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="689:724" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="786:877" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="834:869" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="919:1358" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="1163:1354" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="1246:1349" ph="{...}" />
+                <marker date="1627136333891" expanded="true" signature="1285:1343" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AIFollow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <marker date="1627136333886" expanded="false" signature="6:63" ph="..." />
+                <marker date="1627136333886" expanded="true" signature="65:171" ph="/* Example AI. ... */" />
+                <marker date="1627136333886" expanded="true" signature="354:8861" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="609:838" ph="/* The minimum distance to the end point of a path to consider it &quot;reached&quot; (multiplied with ##pickNextWaypointDis ... */" />
+                <marker date="1627136333886" expanded="true" signature="1040:1337" ph="/* Should paths be searched for. ... */" />
+                <marker date="1627136333886" expanded="true" signature="2051:2233" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="2330:2349" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="2447:3250" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="2454:2528" ph="/* if (Time.time-lastPathSearch &gt;= repathRate) { ... */" />
+                <marker date="1627136333886" expanded="true" signature="2568:2620" ph="/* } ... */" />
+                <marker date="1627136333886" expanded="true" signature="2636:2652" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="2741:2917" ph="/* Find the segment in the path which is closest to the AI ... */" />
+                <marker date="1627136333886" expanded="true" signature="3016:3247" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="3127:3197" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="3226:3243" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="3254:3395" ph="/* Waits the remaining time until the AI should issue a new path request. ... */" />
+                <marker date="1627136333886" expanded="true" signature="3432:3558" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="3562:3778" ph="/* Stops the AI. ... */" />
+                <marker date="1627136333886" expanded="true" signature="3800:3844" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="3848:3976" ph="/* Resumes walking and path searching the AI. ... */" />
+                <marker date="1627136333886" expanded="true" signature="4000:4042" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="4046:4348" ph="/* Recalculates the path to ##target. ... */" />
+                <marker date="1627136333886" expanded="true" signature="4380:5561" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="4490:4543" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="4549:4854" ph="/* for (int i=0;i&lt;1000;i++) { ... */" />
+                <marker date="1627136333886" expanded="true" signature="4857:5123" ph="/* ConstantPath cpath = new ConstantPath(transform.position,null); ... */" />
+                <marker date="1627136333886" expanded="true" signature="5126:5259" ph="/* FloodPathTracer fpathTrace = new FloodPathTracer (transform.position,fpath,null); ... */" />
+                <marker date="1627136333886" expanded="true" signature="5374:5558" ph="/* Start a new path from transform.positon to target.position, return the result to the function OnPathComplete ... */" />
+                <marker date="1627136333886" expanded="true" signature="5662:5909" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="5719:5735" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="5913:6133" ph="/* Called when the AI reached the end of path. ... */" />
+                <marker date="1627136333886" expanded="true" signature="6175:6222" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="6288:7923" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="6370:6386" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="6653:7268" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="6704:7188" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="7001:7047" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="7765:7770" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="7800:7844" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="7927:8104" ph="/* Draws helper gizmos. ... */" />
+                <marker date="1627136333886" expanded="true" signature="8134:8857" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="8219:8235" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="8468:8498" ph="{...}" />
+                <marker date="1627136333886" expanded="true" signature="8606:8775" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/playable/Playable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <marker date="1627136334581" expanded="false" signature="6:85" ph="..." />
+                <marker date="1627136334581" expanded="true" signature="107:124" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="143:171" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="221:12632" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="226:327" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="749:863" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="1163:1280" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="1303:1841" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="1679:1710" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="1845:2005" ph="/* Buildings and units start at the beginning, and then we instantiate new buildings, ... */" />
+                <marker date="1627136334581" expanded="true" signature="2034:2718" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="2099:2684" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="2789:3027" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3061:3331" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3367:3843" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3463:3610" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3644:3840" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3691:3836" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="3846:3918" ph="/* Used for building, move object to different layer (wireframe) ... */" />
+                <marker date="1627136334581" expanded="true" signature="3954:4103" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="4106:4274" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="4314:4592" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="4396:4433" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="4519:4589" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="4638:4785" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="4787:4886" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="4923:5044" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5078:5287" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5310:5477" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5503:5679" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5526:5621" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5718:5907" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5827:5867" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5930:6513" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="5952:6473" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="6356:6385" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="6515:6557" ph="/* Return true every freq seconds ... */" />
+                <marker date="1627136334581" expanded="true" signature="6605:6759" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="6681:6737" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="6762:6859" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="6890:7051" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="6894:7048" ph="/* if (selected){ ... */" />
+                <marker date="1627136334581" expanded="true" signature="7055:7154" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="7218:7554" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="7445:7525" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="7607:7778" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="7835:7874" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="7926:8068" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="7989:8065" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8136:8530" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8254:8509" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8304:8505" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8475:8500" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8532:8633" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="8656:8799" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8833:8897" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="8922:9000" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9024:9057" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9094:9130" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9192:9548" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9285:9360" ph="/* TODO create attack effect: hit, slash or projectile ... */" />
+                <marker date="1627136334581" expanded="true" signature="9550:9584" ph="/* Select object as target ... */" />
+                <marker date="1627136334581" expanded="true" signature="9621:9685" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9726:9927" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="9969:10000" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="10002:10027" ph="/* Receives damage ... */" />
+                <marker date="1627136334581" expanded="true" signature="10059:10179" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="10210:10591" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="10236:10588" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="10595:10701" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="10738:10885" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="10924:11131" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11052:11128" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11170:11197" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11200:11253" ph="/* GO to destination, return true when arrive ... */" />
+                <marker date="1627136334581" expanded="true" signature="11304:11599" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11308:11449" ph="/* faceDirection (mono.transform.position); ... */" />
+                <marker date="1627136334581" expanded="true" signature="11480:11536" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11637:12008" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11675:11830" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="11735:11802" ph="/* Debug.Log (&quot;path complete &quot; + p); ... */" />
+                <marker date="1627136334581" expanded="true" signature="12064:12241" ph="/* ------------------------------------ ... */" />
+                <marker date="1627136334581" expanded="true" signature="12270:12630" ph="{...}" />
+                <marker date="1627136334581" expanded="true" signature="12398:12627" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/playable/Playable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/changelog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AIFollow.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.RTS-Test/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.RTS-Test/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-319" />
+    <option name="y" value="45" />
+    <option name="width" value="1897" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Behavior Designer" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Behavior Designer" type="1045f7f1:UnityExplorerNode" />
+              <item name="Runtime" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Behavior Designer" type="1045f7f1:UnityExplorerNode" />
+              <item name="Runtime" type="1045f7f1:UnityExplorerNode" />
+              <item name="Tasks" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Behavior Designer" type="1045f7f1:UnityExplorerNode" />
+              <item name="Runtime" type="1045f7f1:UnityExplorerNode" />
+              <item name="Tasks" type="1045f7f1:UnityExplorerNode" />
+              <item name="Actions" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f4e7c06-58bd-49b4-938b-65bad62b5bce" name="Default Changelist" comment="" />
+      <created>1627136661395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627136661395</updated>
+      <workItem from="1627136670313" duration="2023000" />
+      <workItem from="1627201251838" duration="1192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3215000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Unity" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/changelog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1627136334018" expanded="true" signature="0:43745" ph="/* \page changelog Changelog ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1627136333783" expanded="false" signature="116:226" ph="..." />
+            <marker date="1627136333783" expanded="true" signature="250:934" ph="{...}" />
+            <marker date="1627136333783" expanded="true" signature="334:932" ph="{...}" />
+            <marker date="1627136333783" expanded="true" signature="379:929" ph="{...}" />
+            <marker date="1627136333783" expanded="true" signature="647:892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1627136333752" expanded="false" signature="6:123" ph="..." />
+            <marker date="1627136333752" expanded="true" signature="167:461" ph="/* Handles path calls for a single unit. ... */" />
+            <marker date="1627136333752" expanded="true" signature="498:15808" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="736:924" ph="/* Saves nearest nodes for previous path to enable faster Get Nearest Node calls. ... */" />
+            <marker date="1627136333752" expanded="true" signature="1154:1461" ph="/* Penalties for each tag. ... */" />
+            <marker date="1627136333752" expanded="true" signature="1507:1578" ph="/* ====== SETTINGS ====== ... */" />
+            <marker date="1627136333752" expanded="true" signature="1582:1797" ph="/* Callback for when a path is completed. Movement scripts should register to this delegate.\n ... */" />
+            <marker date="1627136333752" expanded="true" signature="2170:2260" ph="/* public GetNextTargetDelegate getNextTarget; ... */" />
+            <marker date="1627136333752" expanded="true" signature="2614:2633" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="2968:3004" ph="/* Initializes a few variables ... */" />
+            <marker date="1627136333752" expanded="true" signature="3027:3102" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="3106:3288" ph="/* Cleans up some variables. ... */" />
+            <marker date="1627136333752" expanded="true" signature="3315:3381" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="3385:3788" ph="/* Releases an eventual claimed path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="3824:3912" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="3850:3909" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4036:4141" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4063:4112" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4196:4268" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4223:4239" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4297:4352" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4356:4586" ph="/* Post Processes the path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="4621:4670" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4763:6957" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4914:5175" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="4977:5171" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="5036:5166" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="5223:5546" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="5806:6954" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="6058:6884" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="6479:6563" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="6929:6946" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="6961:7278" ph="/* Is the current path done calculating. ... */" />
+            <marker date="1627136333752" expanded="true" signature="7302:7370" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="7374:7614" ph="/* Called when a path has completed. ... */" />
+            <marker date="1627136333752" expanded="true" signature="7652:7688" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="7692:7817" ph="/* Called when a path has completed. ... */" />
+            <marker date="1627136333752" expanded="true" signature="7894:9335" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="8008:8024" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="8126:8499" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="8524:9298" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="8810:8841" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="8955:8983" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="9044:9085" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="9111:9219" ph="/* If not drawing gizmos, then storing prevPath is quite unecessary ... */" />
+            <marker date="1627136333752" expanded="true" signature="9341:9510" ph="/* public void OnEnable () { ... */" />
+            <marker date="1627136333752" expanded="true" signature="9514:10385" ph="/* public void CheckPathValidity (AstarPath active) { ... */" />
+            <marker date="1627136333752" expanded="true" signature="10389:10477" ph="/* The frame the last call was made from this Seeker ... */" />
+            <marker date="1627136333752" expanded="true" signature="10481:10975" ph="/* Returns a new path instance. The path will be taken from the path pool if path recycling is turned on.\n ... */" />
+            <marker date="1627136333752" expanded="true" signature="11031:11147" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="11151:11295" ph="/* Call this function to start calculating a path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="11348:11392" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="11396:11810" ph="/* Call this function to start calculating a path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="11888:11936" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="11940:12485" ph="/* Call this function to start calculating a path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="12578:12662" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="12666:13183" ph="/* Call this function to start calculating a path. ... */" />
+            <marker date="1627136333752" expanded="true" signature="13268:14974" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="13589:14137" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="14295:14420" ph="/* if (path.startHint == null) ... */" />
+            <marker date="1627136333752" expanded="true" signature="14661:14766" ph="/* if (lastPathCall == Time.frameCount) { ... */" />
+            <marker date="1627136333752" expanded="true" signature="14772:14833" ph="/* lastPathCall = Time.frameCount; ... */" />
+            <marker date="1627136333752" expanded="true" signature="15023:15162" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15194:15804" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15248:15264" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15290:15569" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15385:15565" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15441:15560" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15655:15801" ph="{...}" />
+            <marker date="1627136333752" expanded="true" signature="15712:15797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <marker date="1627136333891" expanded="false" signature="6:67" ph="..." />
+            <marker date="1627136333891" expanded="true" signature="91:1366" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="135:1364" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="426:537" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="564:728" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="689:724" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="786:877" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="834:869" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="919:1358" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="1163:1354" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="1246:1349" ph="{...}" />
+            <marker date="1627136333891" expanded="true" signature="1285:1343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/playable/Playable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1627136334581" expanded="false" signature="6:85" ph="..." />
+            <marker date="1627136334581" expanded="true" signature="107:124" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="143:171" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="221:12632" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="226:327" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="749:863" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="1163:1280" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="1303:1841" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="1679:1710" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="1845:2005" ph="/* Buildings and units start at the beginning, and then we instantiate new buildings, ... */" />
+            <marker date="1627136334581" expanded="true" signature="2034:2718" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="2099:2684" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="2789:3027" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3061:3331" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3367:3843" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3463:3610" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3644:3840" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3691:3836" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="3846:3918" ph="/* Used for building, move object to different layer (wireframe) ... */" />
+            <marker date="1627136334581" expanded="true" signature="3954:4103" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="4106:4274" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="4314:4592" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="4396:4433" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="4519:4589" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="4638:4785" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="4787:4886" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="4923:5044" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5078:5287" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5310:5477" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5503:5679" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5526:5621" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5718:5907" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5827:5867" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5930:6513" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="5952:6473" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="6356:6385" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="6515:6557" ph="/* Return true every freq seconds ... */" />
+            <marker date="1627136334581" expanded="true" signature="6605:6759" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="6681:6737" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="6762:6859" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="6890:7051" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="6894:7048" ph="/* if (selected){ ... */" />
+            <marker date="1627136334581" expanded="true" signature="7055:7154" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="7218:7554" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="7445:7525" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="7607:7778" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="7835:7874" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="7926:8068" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="7989:8065" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8136:8530" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8254:8509" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8304:8505" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8475:8500" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8532:8633" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="8656:8799" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8833:8897" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="8922:9000" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9024:9057" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9094:9130" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9192:9548" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9285:9360" ph="/* TODO create attack effect: hit, slash or projectile ... */" />
+            <marker date="1627136334581" expanded="true" signature="9550:9584" ph="/* Select object as target ... */" />
+            <marker date="1627136334581" expanded="true" signature="9621:9685" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9726:9927" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="9969:10000" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="10002:10027" ph="/* Receives damage ... */" />
+            <marker date="1627136334581" expanded="true" signature="10059:10179" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="10210:10591" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="10236:10588" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="10595:10701" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="10738:10885" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="10924:11131" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11052:11128" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11170:11197" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11200:11253" ph="/* GO to destination, return true when arrive ... */" />
+            <marker date="1627136334581" expanded="true" signature="11304:11599" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11308:11449" ph="/* faceDirection (mono.transform.position); ... */" />
+            <marker date="1627136334581" expanded="true" signature="11480:11536" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11637:12008" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11675:11830" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="11735:11802" ph="/* Debug.Log (&quot;path complete &quot; + p); ... */" />
+            <marker date="1627136334581" expanded="true" signature="12064:12241" ph="/* ------------------------------------ ... */" />
+            <marker date="1627136334581" expanded="true" signature="12270:12630" ph="{...}" />
+            <marker date="1627136334581" expanded="true" signature="12398:12627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Behavior Designer Tactical/Scripts/TacticalGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Behavior Designer Formations/Scripts/Tasks/Diamond.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Behavior Designer Formations/Scripts/Tasks/NavMeshFormationGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Behavior Designer Formations/Scripts/Tasks/Arc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Behavior Designer Formations/Scripts/Tasks/FormationGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AIFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <marker date="1627136333886" expanded="false" signature="6:63" ph="..." />
+            <marker date="1627136333886" expanded="true" signature="65:171" ph="/* Example AI. ... */" />
+            <marker date="1627136333886" expanded="true" signature="354:8861" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="609:838" ph="/* The minimum distance to the end point of a path to consider it &quot;reached&quot; (multiplied with ##pickNextWaypointDis ... */" />
+            <marker date="1627136333886" expanded="true" signature="1040:1337" ph="/* Should paths be searched for. ... */" />
+            <marker date="1627136333886" expanded="true" signature="2051:2233" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="2330:2349" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="2447:3250" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="2454:2528" ph="/* if (Time.time-lastPathSearch &gt;= repathRate) { ... */" />
+            <marker date="1627136333886" expanded="true" signature="2568:2620" ph="/* } ... */" />
+            <marker date="1627136333886" expanded="true" signature="2636:2652" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="2741:2917" ph="/* Find the segment in the path which is closest to the AI ... */" />
+            <marker date="1627136333886" expanded="true" signature="3016:3247" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="3127:3197" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="3226:3243" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="3254:3395" ph="/* Waits the remaining time until the AI should issue a new path request. ... */" />
+            <marker date="1627136333886" expanded="true" signature="3432:3558" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="3562:3778" ph="/* Stops the AI. ... */" />
+            <marker date="1627136333886" expanded="true" signature="3800:3844" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="3848:3976" ph="/* Resumes walking and path searching the AI. ... */" />
+            <marker date="1627136333886" expanded="true" signature="4000:4042" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="4046:4348" ph="/* Recalculates the path to ##target. ... */" />
+            <marker date="1627136333886" expanded="true" signature="4380:5561" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="4490:4543" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="4549:4854" ph="/* for (int i=0;i&lt;1000;i++) { ... */" />
+            <marker date="1627136333886" expanded="true" signature="4857:5123" ph="/* ConstantPath cpath = new ConstantPath(transform.position,null); ... */" />
+            <marker date="1627136333886" expanded="true" signature="5126:5259" ph="/* FloodPathTracer fpathTrace = new FloodPathTracer (transform.position,fpath,null); ... */" />
+            <marker date="1627136333886" expanded="true" signature="5374:5558" ph="/* Start a new path from transform.positon to target.position, return the result to the function OnPathComplete ... */" />
+            <marker date="1627136333886" expanded="true" signature="5662:5909" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="5719:5735" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="5913:6133" ph="/* Called when the AI reached the end of path. ... */" />
+            <marker date="1627136333886" expanded="true" signature="6175:6222" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="6288:7923" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="6370:6386" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="6653:7268" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="6704:7188" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="7001:7047" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="7765:7770" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="7800:7844" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="7927:8104" ph="/* Draws helper gizmos. ... */" />
+            <marker date="1627136333886" expanded="true" signature="8134:8857" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="8219:8235" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="8468:8498" ph="{...}" />
+            <marker date="1627136333886" expanded="true" signature="8606:8775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
